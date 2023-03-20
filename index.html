@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/b0241d826d.js" crossorigin="anonymous"></script>
+    <title>Portfolio</title>
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <nav>
+                <img src="images/Zakria-logos_white.png" alt="loading" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Frontend Developer</p>
+                <h1>Hi, I'm <span>Zakria</span> <br> From Pakistan</h1>
+            </div>
+        </div>
+    </header>
+  <!-- ------------------abuout--------------- -->
+  <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="picx.png" alt="loading...  ">
+            </div>
+            <div class="about-col-2">
+                <h1 class="subtitle">About Me</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, at maxime enim aliquid distinctio aut architecto non asperiores laborum culpa assumenda laudantium ut, incidunt dolorem quas harum, impedit saepe ea nulla? Quaerat velit facere est quisquam vero, voluptatem nesciunt quod ex a distinctio, odio dolores praesentium similique tenetur aliquid incidunt corporis culpa recusandae pariatur fugiat debitis modi reiciendis adipisci alias. Officiis dicta, ab quasi temporibus quam, a neque earum commodi, delectus quod ea veritatis consequatur. Est magnam</p>
+                <div class="tab-title">
+                    <div class="tab-links active-link" onclick="opentab('skills')">Skills</div>
+                    <div class="tab-links" onclick="opentab('experience')">Experience</div>
+                    <div class="tab-links" onclick="opentab('education')">Education</div>
+                </div>
+                <div class="tab-contents active-tab  " id="skills">
+                    <ul>
+                        <li><span>Frontend Dev</span><br>Designing Web</li>
+                        <li><span>Mern Dev</span><br>Designing Web interfaces</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Frontend Dev</span><br>Designing Web</li>
+                        <li><span>Mern Dev</span><br>Designing Web interfaces</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>College</span><br>Information to Computer Science</li>
+                        <li><span>University</span><br>Doing Computer Science Degree</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <!-- --------------------services-------------- -->
+  <div id="services">
+    <div class="container">
+        <h1 class="subtitle">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita doloremque ut alias, ipsum distinctio maxime optio id amet laboriosam vel nisi placeat nesciunt quae iste. Minima similique voluptatem qui, labore necessitatibus voluptates, tenetur mollitia molestias nemo alias nesciunt.
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-bars"></i>
+                
+                <h2>Frontend Dev</h2>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita doloremque ut alias, ipsum distinctio maxime optio id amet laboriosam vel nisi placeat nesciunt quae iste. Minima similique voluptatem qui, labore necessitatibus voluptates, tenetur mollitia molestias nemo alias nesciunt.
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>Mern Dev</h2>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita doloremque ut alias, ipsum distinctio maxime optio id amet laboriosam vel nisi placeat nesciunt quae iste. Minima similique voluptatem qui, labore necessitatibus voluptates, tenetur mollitia molestias nemo alias nesciunt.
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <!-- ----------------portfolio------------- -->
+  <div id="portfolio">
+    <div class="container">
+        <h1 class="subtitle">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png" alt="">    
+                <div class="layer">
+                    <h3>Social Media Website</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed reprehenderit, id fugiat iste odit perspiciatis.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png" alt="">
+                <div class="layer">
+                    <h3>Streaming Website</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed reprehenderit, id fugiat iste odit perspiciatis.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png" alt="">
+                <div class="layer">
+                    <h3>Online Shoppig Website</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed reprehenderit, id fugiat iste odit perspiciatis.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="btn">See more</a>
+  </div>
+
+  <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>gostudyzaki@gmail.com</p>
+                <p><i class="fa-sharp fa-solid fa-phone"></i>+92 315447747</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/zakria.ahmed.940"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/zakria_ahmed/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                </div>
+                <a href="images/Zakria CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="email" name="Email" placeholder="Your email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="copyright">
+    <p>Copyright &copy All rights reserved <i class="fa-solid fa-heart"></i></p>
+  </div>
+
+<!-- ---------------------- <Script> ----------------- -->
+
+  <script>
+    let tablinks=document.getElementsByClassName('tab-links');
+    let tabcontents=document.getElementsByClassName('tab-contents');
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link"); 
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+    
+  <script>
+    let sidemenu = document.getElementById('sidemenu');
+   function openmenu(){
+    sidemenu.style.right = "0";
+
+   }
+   function closemenu(){
+    sidemenu.style.right = "-200px";
+
+   }
+   
+  </script>
+
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzMDfHrN5z--wSP9aML1C2ApbhptiplisP3bU1e8TXkhPj87XYCo3X9XKI0f-jh8chZsA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    let msg = document.getElementById('msg');
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully";
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset();
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
